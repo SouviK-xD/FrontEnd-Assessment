@@ -1,0 +1,18 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item.completed span {
+    text-decoration: line-through;
+  }
+  
+  .task-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  

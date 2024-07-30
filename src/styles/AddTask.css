@@ -1,0 +1,56 @@
+
+  .add-task {
+    position: relative; /* Set position relative to enable absolute positioning inside */
+    display: flex;
+    align-items: center;
+  }
+
+  .add-task input {
+    width: 650px;
+    height: 156px; /* Adjusted height to fit the button */
+    padding: 0 40px 0 20px; /* Added right padding to make space for the button */
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    background: linear-gradient(358.24deg, rgba(53, 121, 55, 0.1) 1.27%, rgba(208, 255, 210, 0.1) 98.29%);
+    font-size: 16px; /* Adjust font size if needed */
+  }
+
+  .add-task button {
+    position: relative;
+    right: 100px;
+    opacity: 0;
+    bottom:-45px;
+    width: 90px;
+    height: 30px;
+    padding: 8px 16px;
+    border-radius: 0 5px 5px 0;
+    background-color: #70000029;
+    border: #013f22;
+    color: rgb(2, 85, 49);
+    cursor: pointer;
+  }
+
+  .add-task button:hover {
+    background-color: #2eb877;
+    opacity: 0;
+  }
+
+  .input-image {
+    position: absolute;
+    left: 10px; /* Adjust as needed */
+    top: 60%;
+    transform: translateY(50%);
+    width: 690px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+  }
+
+  
+
+   /* .task-container input::placeholder {
+    position: absolute;
+    top: 0; /* Adjust as needed */
+    /* left: 0; /* Adjust as needed */
+    /* padding: 10px 20px; /* Adjust padding to position placeholder text */
+    /* color: #aaa; /* Adjust color as needed */
+    /* font-size: 16px; /* Adjust font size as needed */
+  /* } */

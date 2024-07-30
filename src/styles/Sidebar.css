@@ -1,0 +1,34 @@
+/* src/styles/Sidebar.css */
+.sidebar {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu li.active {
+    background-color: #ddd;
+  }
+  
+  .today-tasks {
+    margin-top: 20px;
+  }
+  

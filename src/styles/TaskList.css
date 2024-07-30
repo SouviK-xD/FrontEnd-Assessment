@@ -1,0 +1,16 @@
+.task-list-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+    
+  }
+  
+  .task-list {
+    margin-bottom: 20px;
+  }
+  
+  .tasks {
+    margin-top: 20px;
+  }
+  
